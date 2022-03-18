@@ -32,7 +32,7 @@ const Layout = () => {
           </Link>
         </nav>
       </div>
-      <div className="md:w-3/4 p-5 bg-gray-200">
+      <div className="md:w-3/4 p-5 bg-gray-200 md:h-screen overflow-scroll">
         {/* <Outlet /> indica donde se inyecta el componente externo */}
         <Outlet />
       </div>
